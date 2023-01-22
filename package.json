@@ -1,6 +1,6 @@
 {
-  "name": "@chocolatelibui/lib",
-  "version": "0.0.0",
+  "name": "@chocolatelibui/spinner",
+  "version": "0.0.1",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "cypress": "^11.2.0",
     "cypress-vite": "^1.2.1",
+    "sass": "^1.57.1",
     "start-server-and-test": "^1.14.0",
     "tslib": "^2.4.1",
     "typescript": "^4.9.3",
@@ -34,14 +35,16 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChocolateLibUI/lib.git"
+    "url": "git+https://github.com/ChocolateLibUI/spinner.git"
   },
   "bugs": {
-    "url": "https://github.com/ChocolateLibUI/lib/issues"
+    "url": "https://github.com/ChocolateLibUI/spinner/issues"
   },
-  "homepage": "https://github.com/ChocolateLibUI/lib#readme",
+  "homepage": "https://github.com/ChocolateLibUI/spinner#readme",
   "dependencies": {
-    "@chocolatelib/math": "^0.0.1",
-    "@chocolatelib/value": "^0.0.3"
+    "@chocolatelib/colors": "^0.0.2",
+    "@chocolatelibui/core": "^0.0.9",
+    "@chocolatelibui/svg": "^0.0.3",
+    "@chocolatelibui/theme": "^0.0.5"
   }
 }

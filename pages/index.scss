@@ -1,0 +1,25 @@
+body {
+    position: absolute;
+    background-color: var(--YO\/color);
+    inset: 0;
+
+    .tiny {
+        height: 1rem;
+    }
+
+    .teeny {
+        height: 2rem;
+    }
+
+    .little {
+        height: 3rem;
+    }
+
+    .bittle {
+        height: 4rem;
+    }
+
+    .big {
+        height: 5rem;
+    }
+}
