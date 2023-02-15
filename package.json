@@ -1,6 +1,6 @@
 {
   "name": "@chocolatelibui/spinner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -42,9 +42,9 @@
   },
   "homepage": "https://github.com/ChocolateLibUI/spinner#readme",
   "dependencies": {
-    "@chocolatelib/colors": "^0.0.2",
-    "@chocolatelibui/core": "^0.0.9",
-    "@chocolatelibui/svg": "^0.0.3",
-    "@chocolatelibui/theme": "^0.0.5"
+    "@chocolatelib/colors": "<1.0.0 || ^1.0.0",
+    "@chocolatelibui/core": "<1.0.0 || ^1.0.0",
+    "@chocolatelibui/svg": "<1.0.0 || ^1.0.0",
+    "@chocolatelibui/theme": "<1.0.0 || ^1.0.0"
   }
 }
